@@ -8,6 +8,7 @@ const handler = NextAuth({
         }),
         
       ],
+      secret: process.env.SECRET
 },
 
 )
